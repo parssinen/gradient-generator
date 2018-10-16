@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  text-align: center;
+}
+
+h2,
+h3 {
+  letter-spacing: 5px;
+}
+
+#wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.firstColor,
+.secondColor {
+  display: inline;
+}

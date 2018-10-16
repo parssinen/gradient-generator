@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gradient Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h2>Gradient Generator</h2>
+    <div class="color-picker-wrap">
+      <div class="color-picker">
+        <input type="color" value="#ffffff" id="firstColor" onchange="update(this.value, this)">
+      </div>
+      <div class="color-picker">
+        <input type="color" value="#000000" id="secondColor" onchange="update(this.value, this)">
+      </div>
+    </div>
+    <h3>Copy this right here:</h3>
+    <div class="color-line-wrap">
+      linear-gradient(to right, <div class="firstColor">#ffffff</div>, <div class="secondColor">#000000</div>)
+    </div>
+  </div>
+</body>
+
+</html>
